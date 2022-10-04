@@ -95,12 +95,12 @@ Elements: 5`
 
 - Счетчик состоит из спана и кнопок, которые, при клике, должны увеличивать и уменьшать его значение на единицу.
 
-`<div id="counter">
-<button type="button" data-action="decrement">-1</button>
-<span id="value">0</span>
-<button type="button" data-action="increment">+1</button>
+`<div id="counter">`
+`<button type="button" data-action="decrement">-1</button>`
+`<span id="value">0</span>`
+`<button type="button" data-action="increment">+1</button>`
 
-</div>`
+`</div>`
 
 - Создай переменную counterValue в которой будет храниться текущее значение счетчика и инициализируй её значением 0.
 - Добавь слушатели кликов на кнопки, внутри которых увеличивай или уменьшай значение счтетчика.
@@ -146,18 +146,18 @@ border-color: #f44336;
 
 ###Напиши скрипт управления формой логина.
 
-`<form class="login-form">
-<label>
-Email
-<input type="email" name="email" />
-</label>
-<label>
-Password
-<input type="password" name="password" />
-</label>
-<button type="submit">Login</button>
+`<form class="login-form">`
+`<label>`
+`Email`
+`<input type="email" name="email" />`
+`</label>`
+`<label>`
+`Password`
+`<input type="password" name="password" />`
+`</label>`
+`<button type="submit">Login</button>`
 
-</form>`
+`</form>`
 
 - Обработка отправки формы form.login-form должна быть по событию submit.
 - При отправке формы страница не должна перезагружаться.
@@ -169,11 +169,11 @@ Password
 
 ###Напиши скрипт, который изменяет цвета фона элемента `<body>` через инлайн стиль при клике на button.change-color и выводит значение цвета в span.color.
 
-`<div class="widget">
+`<div class="widget">`
 
-  <p>Background color: <span class="color">-</span></p>
-  <button type="button" class="change-color">Change color</button>
-</div>`
+`<p>Background color: <span class="color">-</span></p>`
+`<button type="button" class="change-color">Change color</button>`
+`</div>`
 
 - Для генерации случайного цвета используй функцию getRandomHexColor.
 
@@ -183,14 +183,14 @@ Password
 
 ###Напиши скрипт создания и очистки коллекции элементов. Пользователь вводит количество элементов в input и нажимает кнопку Создать, после чего рендерится коллекция. При нажатии на кнопку Очистить, коллекция элементов очищается.
 
-`<div id="controls">
-<input type="number" min="1" max="100" step="1" />
-<button type="button" data-create>Create</button>
-<button type="button" data-destroy>Destroy</button>
+`<div id="controls">`
+`<input type="number" min="1" max="100" step="1" />`
+`<button type="button" data-create>Create</button>`
+`<button type="button" data-destroy>Destroy</button>`
 
-</div>
+`</div>`
 
-<div id="boxes"></div>`
+`<div id="boxes"></div>`
 
 - Создай функцию `createBoxes(amount)`, которая принимает один параметр - число. Функция создает столько `<div>`, сколько указано в amount и добавляет их в div#boxes.
 
@@ -198,6 +198,6 @@ Password
 - Каждый элемент после первого, должен быть шире и выше предыдущего на 10px.
 - Все элементы должены иметь случайный цвет фона в формате HEX. Используй готовую функцию getRandomHexColor для получения цвета.
 
-`function getRandomHexColor() { return `#${Math.floor(Math.random() \* 16777215) .toString(16) .padStart(6, 0)}`; }`
+`function getRandomHexColor() { return #${Math.floor(Math.random() \* 16777215) .toString(16) .padStart(6, 0)}`; }`
 
-- Создай функцию destroyBoxes(), которая очищает содержимое div#boxes, тем самым удаляя все созданные элементы.
+- Создай функцию `destroyBoxes()`, которая очищает содержимое div#boxes, тем самым удаляя все созданные элементы.
