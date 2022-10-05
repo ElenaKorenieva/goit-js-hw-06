@@ -7,7 +7,7 @@ function handleFormSubmit(event) {
 
   const {
     elements: { email, password },
-  } = event.currentTarget;
+  } = event.target;
 
   console.dir(email);
 
