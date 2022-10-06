@@ -50,18 +50,18 @@
 - Для каждого элемента li.item в списке ul#categories, найдет и выведет в консоль текст заголовка элемента `(тега <h2>)` и количество элементов в категории - всех вложенных в него <li>.
 - В результате, в консоли будут выведены такие сообщения.
 
-`Number of categories: 3
+`Number of categories: 3`
 
-Category: Animals
-Elements: 4
+`Category: Animals`
+`Elements: 4`
 
-Category: Products
-Elements: 3
+`Category: Products`
+`Elements: 3`
 
-Category: Technologies
-Elements: 5`
+`Category: Technologies`
+`Elements: 5`
 
-##Задание 2
+## Задание 2
 
 - В HTML есть пустой список ul#ingredients.
 
